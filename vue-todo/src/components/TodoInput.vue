@@ -48,10 +48,10 @@ export default {
       } else {
         this.showModal = !this.showModal
       }
-     },
-     clearInput(){
+    },
+    clearInput(){
       this.newTodoItem = '';
-     },
+    },
   },
   components: {
     AlertModal
